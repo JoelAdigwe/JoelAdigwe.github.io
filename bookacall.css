@@ -572,7 +572,7 @@ body footer .footer-con .fa-envelope {
 }
 @media screen and (min-width: 200px) and (max-width: 600px) {
   body {
-    margin-right: -600px;
+    margin-right: -400px;
   }
   body header {
     background-color: black;
