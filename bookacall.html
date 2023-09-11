@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Book a call</title>
+    <link rel="stylesheet" href="bookacall.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="container mx-auto">
+    <header>
+       <img src="./images/1Asset 7(1).png" alt="" width="150px" height="60px">
+        <nav class="navigations">
+            <div class="nav-links">
+                <a href="index.html" class="text-white nav">Home</a>
+                <a href="about.html" class="nav">About</a>
+                <a href="expertise.html" class="nav">Expertise</a>
+                <a href="contact.html" class="nav">Contact</a>
+
+            </div>
+            <i class="fa-solid fa-bars fa-2x" id="hamburger" onclick="toggleMenu()"></i>  
+        </nav>
+        <div class="mobile-menu" id="mob-menu">
+            <a href="index.html" class="mobile-head">Home</a>
+            <a href="about.html" class="mobile-head">About</a>
+            <a href="expertise.html" class="mobile-head">Expertise</a>
+            <a href="contact.html" class="mobile-head">Contact</a>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="Hero-section">
+            <div class="left-hero-section">
+                <img src="./images/bac hero img.svg" alt="">
+            </div>
+            <div class="right-hero-section">
+                <span class="line"></span>
+                <h1 class="hero-head">Book a Call</h1>
+                <p class="hero-content"> Select a suitable time slot and have a face-to-face video call with
+                    a project manager to discuss your needs.</p>
+            </div>
+            <span class="svg"><svg xmlns="http://www.w3.org/2000/svg" width="735" height="619" viewBox="0 0 735 619"
+                    fill="none">
+                    <path
+                        d="M1 1C63.1819 36.6131 -15 63.7608 47.452 71.6525C86.4308 76.578 111.077 104.177 118.52 123.472C123.341 133.752 141.349 151.228 174.808 138.892C216.631 123.472 230.781 163.917 228.266 181.359C225.75 198.801 196.82 218.265 182.355 194.756C167.89 171.248 163.802 155.828 204.052 149.762C244.303 143.695 239.901 242.279 326.062 251.126C412.224 259.974 352.274 387.105 405.364 361.51C472.973 328.901 455.823 379.158 492.637 341.368C511.34 322.17 474.93 294.748 448.274 298.457C421.001 302.252 539.645 533.453 633.464 587.626C778.555 671.404 737.497 539.393 689.497 530.051C641.497 520.71 552.447 583.249 563.72 618"
+                        stroke="#00D285" stroke-width="2" />
+                </svg></span>
+        </section>
+
+
+        <span class="dots">
+            <img src="./images/dot img.svg" alt="">
+        </span>
+        <section class="form">
+            <div class="left-form-section">
+                <span class="petrong">
+                <img src="./images/1Asset 7(1).png" class="petrong-circle w-[150px]" height="60px">
+                <!-- <p class="petrong-txt">WEDEV</p> -->
+            </span>
+                <span class="left-form-content">
+            <h3 class="left-form-head">
+                        30 Minute Meeting
+                    </h3>
+            <p class="left-form-text">
+                        Web conferencing details provided upon confirmation.
+                    </p>
+            <p class="left-form-date">
+                        Tuesday, December, 3:00 AM
+                    </p>
+    <p class="left-form-timezone">West African Time GMT</p>
+                </span>
+            </div>
+            <div class="right-form-section">
+                <form action="" class="schedule-form">
+             <span class="top-form"> 
+      <div class="month"> <label for="" class="labeltxt">Month</label> 
+           <input type="month" name="" id="" class="input"></div>
+          <div class="day"> <label for="" class="labeltxt">Day</label> 
+           <input type="week" name="" id="" class="input"> </div>
+
+           <div class="time"><label for="" class="labeltxt">Time</label> 
+           <input type="time" name="" id="" class="input"></div></span> <br>
+           <br>
+           <label for="" class="labeltxt">Time Zone</label> 
+           <input type="text" name="" id="" class="input">
+           <br>
+           <label for="" class="labeltxt">Name</label>
+           <input type="text" name="" id="" class="input">
+           <br>
+           <label for="" class="labeltxt">Email Adress</label>
+           <input type="email" class="input">
+           <br>
+           <span class="text"><label for="" class="labeltxt">Please share the topics you would like to discuss. That
+            will help us prepare for our meeting.</label></span>
+            <textarea class="txtarea"> </textarea>
+            <button class="form-btn">Schedule Meeting </button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+
+     <footer class="flex flex-wrap justify-between px-6 bg-[url('images/footer.png')] bg-no-repeat bg-cover h-[850px] md:h-[560px] md:pt-[100px] pt-[12px]">
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6 lg:pl-[50px] 2xl:pl-[140px]">
+            <h5 class="text-white pb-[5px]">Quick Links</h5>
+            <ul>
+              <li><a href="index.html" class="text-gray-500 hover:text-blue-700 hover:underline">Home</a></li>
+              <li><a href="about.html" class="text-gray-500 hover:text-blue-700 hover:underline">About</a></li>
+              <li><a href="expertise." class="text-gray-500 hover:text-blue-700 hover:underline">Expertise</a></li>
+              <li><a href="contact.html" class="text-gray-500 hover:text-blue-700 hover:underline">Contact</a></li>
+            </ul>
+        </div>
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
+          <h5 class="text-white pb-[5px]">Our Services</h5>
+          <ul>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Web Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Digital Project Design</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Cloud/DevOps</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Mobile Applications</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Dedicated Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Team</a></li>
+          </ul>
+        </div>
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
+          <h5 class="text-white pb-[5px]">Our Technologies</h5>
+          <ul>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Laravel Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">React Js App Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Vue Js App Development</a></li>
+          </ul>
+        </div>
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
+          <h5 class="text-white pb-[5px]">Contact & Follow Us</h5>
+          <div class="flex justify-center md:pr-[270px] lg:pr-[150px] xl:pr-[220px] 2xl:pr-[280px]">
+            <a href=""><img src="./images/linkedin .png" alt=""></a>
+            <a href=""><img src="./images/instagram .png" alt="" class="pl-2"></a>
+            <a href=""><img src="./images/fb.png" alt=""></a> 
+            <a href="" class="pt-[4px]"><img src="./images/youtube.png" alt=""></a> 
+          </div>
+          <ul class="pt-[5px]">
+              <li class="text-gray-500 hover:text-blue-700 hover:underline">
+                  <div>
+                      <i class="fa-solid fa-phone-volume text-white"></i>
+                      Phone: +2348163617315</div>
+              </li>
+              <li class="text-gray-500 hover:text-blue-700 hover:underline">
+                  <div>
+                      <i class="fa-solid fa-envelope text-white"></i>
+                  E-mail: <span class="text-green-500">joeladigwe2003@gmail.com</span>
+                  </div>
+              </li>
+          </ul> 
+        </div>
+        <span class="text-slate-300 lg:pt-[70px] 2xl:pl-[50px]">WEDEV Software Solution Copyright 2023  - All Right Reserved</span>
+        <div>
+            <div class="lg:pr-[100px]"><img src="./images/1Asset 7(1).png" alt="" width="150px" height="60px" class="h-[60px] w-[150px]"></div>
+            <p class="text-green-500 text-[20px]">WEDEV Software Solution</p>
+        </div>
+        <!-- <div class="text-green-500 flex"><img src="./images/logo.png" alt="" height="6px" width="">
+          <h3 class=""><span class="text-[36px]">JUM</span> Software Solution</h3>
+       </div> -->
+  </footer>
+    <script src="expertise.js"></script>
+</body>
+
+</html>

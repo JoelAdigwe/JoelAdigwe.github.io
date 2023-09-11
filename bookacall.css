@@ -1,0 +1,1086 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  max-width: 1440px;
+}
+body header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 100px;
+  position: relative;
+  z-index: 2;
+}
+body header .logo {
+  text-decoration: none;
+  color: green;
+  margin-left: 50;
+  margin-top: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+body header .navigations {
+  position: relative;
+  z-index: 1;
+}
+body header .navigations .nav-links .nav {
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+body header .navigations .nav-links .nav:hover {
+  color: green;
+  font-weight: 600;
+}
+body header .navigations .nav-links .fa-bars {
+  display: none;
+  cursor: pointer;
+}
+body header .mobile-menu {
+  background-color: rgba(13, 13, 13, 0.844);
+  display: none;
+}
+body header .mobile-menu .mobile-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 15px 30px;
+}
+body main .Hero-section {
+  background-color: #EBFAF4;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 53px;
+  position: relative;
+  z-index: 1;
+}
+body main .Hero-section .right-hero-section {
+  padding: 150px 150px;
+}
+body main .Hero-section .right-hero-section .line {
+  border: 2px solid #00D285;
+  width: 56px;
+  height: 3px;
+  position: absolute;
+  top: 225px;
+  left: 570px;
+}
+body main .Hero-section .right-hero-section .hero-head {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: 17px;
+}
+body main .Hero-section .right-hero-section .hero-content {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+}
+body main .Hero-section .svg {
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  height: 300 px;
+  top: -100px;
+  left: 50px;
+  flex-shrink: 0;
+}
+body main .dots {
+  position: absolute;
+  left: 350px;
+  bottom: -200px;
+  z-index: -1;
+}
+body main .form {
+  padding-top: 155px;
+  display: flex;
+  padding-left: 58px;
+}
+body main .form .left-form-section {
+  background-color: black;
+  width: 455px;
+  height: 459px;
+  flex-shrink: 0;
+}
+body main .form .left-form-section .petrong {
+  padding-left: 23px;
+  padding-top: 52.37px;
+  display: flex;
+}
+body main .form .left-form-section .petrong .petrong-txt {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600px;
+  font-size: large;
+}
+body main .form .left-form-section .left-form-content {
+  color: white;
+}
+body main .form .left-form-section .left-form-content .left-form-head {
+  padding-top: 53px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 38px;
+}
+body main .form .left-form-section .left-form-content .left-form-text {
+  padding: 17px 38px;
+}
+body main .form .left-form-section .left-form-content .left-form-date {
+  padding: 37px 68px;
+}
+body main .form .left-form-section .left-form-content .left-form-timezone {
+  padding: 44px 68px;
+}
+body main .form .right-form-section {
+  padding: 50px 200px;
+}
+body main .form .right-form-section .schedule-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body main .form .right-form-section .schedule-form .top-form {
+  display: flex;
+  justify-content: space-between;
+}
+body main .form .right-form-section .schedule-form .top-form .month {
+  display: flex;
+  flex-direction: column;
+}
+body main .form .right-form-section .schedule-form .top-form .day {
+  display: flex;
+  flex-direction: column;
+}
+body main .form .right-form-section .schedule-form .top-form .time {
+  display: flex;
+  flex-direction: column;
+}
+body main .form .right-form-section .schedule-form .input {
+  background-color: #EBFAF4;
+  height: 55px;
+  border: none;
+}
+body main .form .right-form-section .schedule-form .txtarea {
+  background-color: #EBFAF4;
+  height: 150px;
+  width: 420px;
+  border: none;
+}
+body main .form .right-form-section .schedule-form .labeltxt {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  padding-bottom: 21px;
+}
+body main .form .right-form-section .schedule-form .text {
+  width: 400px;
+}
+body main .form .right-form-section .schedule-form .form-btn {
+  background-color: #00D285;
+  border: none;
+  width: 420px;
+  height: 55px;
+  padding: 19px 142px 19px 146px;
+  color: white;
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+body footer {
+  background-color: rgb(26, 26, 26);
+  height: 580px;
+  margin: auto;
+  padding: 30px 60px;
+  display: flex;
+}
+body footer .footer-con {
+  display: block;
+  color: #fff;
+}
+body footer .footer-con .footer-nav-items {
+  padding: 20px 0;
+  margin-left: 50px;
+}
+body footer .footer-con .item {
+  display: inline-block;
+}
+body footer .footer-con li {
+  list-style: none;
+  margin-top: 5px;
+}
+body footer .footer-con li div {
+  margin: 0 5px;
+}
+body footer .footer-con li div .contact-img {
+  background-image: url(./images/Ellipse\ 4\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 20px;
+  height: 19.248px;
+  flex-shrink: 0;
+  padding: 0 1px;
+  margin: 2px 8px;
+}
+body footer .footer-con .fa-envelope {
+  color: #fff;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1300) {
+  body {
+    margin-right: -400px;
+  }
+  body header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+  }
+  body header .navigations {
+    position: relative;
+    z-index: 1;
+  }
+  body header .navigations .nav-links .nav {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  body header .navigations .nav-links .nav:hover {
+    color: green;
+    font-weight: 600;
+  }
+  body main .Hero-section {
+    display: flex;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  body main .Hero-section .left-hero-section {
+    padding-left: 30px;
+  }
+  body main .Hero-section .right-hero-section {
+    padding: 80px 70px;
+  }
+  body main .Hero-section .right-hero-section .line {
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    width: 50px;
+  }
+  body main .Hero-section .right-hero-section .hero-head {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  body main .Hero-section .right-hero-section .hero-content {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+  }
+  body main .Hero-section .svg {
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 300 px;
+    top: -100px;
+    left: 10px;
+    flex-shrink: 0;
+  }
+  body main .dots {
+    position: absolute;
+    left: 300px;
+    bottom: -300px;
+  }
+  body main .form {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  body main .form .left-form-section {
+    background-color: black;
+    width: 455px;
+    height: 459px;
+    flex-shrink: 0;
+  }
+  body main .form .left-form-section .petrong {
+    padding-left: 33px;
+    padding-top: 52.37px;
+  }
+  body main .form .left-form-section .left-form-content {
+    color: white;
+  }
+  body main .form .left-form-section .left-form-content .left-form-head {
+    padding-top: 53px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-text {
+    padding: 17px 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-date {
+    padding: 37px 68px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-timezone {
+    padding: 44px 68px;
+  }
+  body main .form .right-form-section {
+    padding-left: -10px;
+    padding-top: 60px;
+  }
+  body main .form .right-form-section .schedule-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form .month {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .day {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .time {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .input {
+    background-color: #EBFAF4;
+    height: 55px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .txtarea {
+    background-color: #EBFAF4;
+    height: 150px;
+    width: 420px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .labeltxt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 21px;
+  }
+  body main .form .right-form-section .schedule-form .text {
+    width: 400px;
+  }
+  body main .form .right-form-section .schedule-form .form-btn {
+    background-color: #00D285;
+    border: none;
+    width: 420px;
+    height: 55px;
+    padding: 19px 142px 19px 146px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 64px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  body {
+    margin: auto;
+  }
+  body header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+  }
+  body header .navigations {
+    position: relative;
+    z-index: 1;
+  }
+  body header .navigations .nav-links .nav {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  body header .navigations .nav-links .nav:hover {
+    color: green;
+    font-weight: 600;
+  }
+  body main .Hero-section {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  body main .Hero-section .left-hero-section {
+    padding-left: 80px;
+  }
+  body main .Hero-section .right-hero-section {
+    padding: 80px 70px;
+  }
+  body main .Hero-section .right-hero-section .line {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+  }
+  body main .Hero-section .right-hero-section .hero-head {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  body main .Hero-section .right-hero-section .hero-content {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+  }
+  body main .Hero-section .svg {
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 300 px;
+    top: -100px;
+    left: 10px;
+    flex-shrink: 0;
+  }
+  body main .dots {
+    position: absolute;
+    left: 500px;
+    bottom: -800px;
+    z-index: -1;
+  }
+  body main .form {
+    padding-top: 155px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 58px;
+  }
+  body main .form .left-form-section {
+    background-color: black;
+    width: 455px;
+    height: 459px;
+    flex-shrink: 0;
+    margin: auto;
+  }
+  body main .form .left-form-section .petrong {
+    padding-left: 33px;
+    padding-top: 52.37px;
+  }
+  body main .form .left-form-section .left-form-content {
+    color: white;
+  }
+  body main .form .left-form-section .left-form-content .left-form-head {
+    padding-top: 53px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-text {
+    padding: 17px 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-date {
+    padding: 37px 68px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-timezone {
+    padding: 44px 68px;
+  }
+  body main .form .right-form-section {
+    padding-left: 127px;
+    padding-top: 60px;
+  }
+  body main .form .right-form-section .schedule-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form .month {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .day {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .time {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .input {
+    background-color: #EBFAF4;
+    height: 55px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .txtarea {
+    background-color: #EBFAF4;
+    height: 150px;
+    width: 420px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .labeltxt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 21px;
+  }
+  body main .form .right-form-section .schedule-form .text {
+    width: 400px;
+  }
+  body main .form .right-form-section .schedule-form .form-btn {
+    background-color: #00D285;
+    border: none;
+    width: 420px;
+    height: 55px;
+    padding: 19px 142px 19px 146px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 64px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 600px) {
+  body {
+    margin-right: -600px;
+  }
+  body header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 5px;
+    position: relative;
+    z-index: 2;
+  }
+  body header .logo {
+    padding-left: 80px;
+  }
+  body header .navigations {
+    position: relative;
+    z-index: 1;
+  }
+  body header .navigations .nav-links {
+    display: none;
+  }
+  body header .navigations .nav-links .nav {
+    text-transform: uppercase;
+  }
+  body header .navigations .fa-bars {
+    display: block;
+    color: white;
+    padding-right: 80px;
+  }
+  body header .mobile-menu {
+    background-color: rgba(13, 13, 13, 0.844);
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+  }
+  body header .mobile-menu .mobile-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 15px 30px;
+  }
+  body header .show-menu {
+    display: block;
+  }
+  body main .Hero-section {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  body main .Hero-section .left-hero-section {
+    padding-left: 80px;
+    display: none;
+  }
+  body main .Hero-section .right-hero-section {
+    padding: 80px 70px;
+  }
+  body main .Hero-section .right-hero-section .line {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+  }
+  body main .Hero-section .right-hero-section .hero-head {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  body main .Hero-section .right-hero-section .hero-content {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+  }
+  body main .Hero-section .svg {
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 300 px;
+    top: -100px;
+    left: 10px;
+    display: none;
+    flex-shrink: 0;
+  }
+  body main .dots {
+    position: absolute;
+    left: 500px;
+    bottom: -800px;
+    z-index: -1;
+    display: none;
+  }
+  body main .form {
+    padding-top: 155px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 58px;
+  }
+  body main .form .left-form-section {
+    background-color: black;
+    width: 455px;
+    height: 459px;
+    flex-shrink: 0;
+    margin-left: 35px;
+  }
+  body main .form .left-form-section .petrong {
+    padding-left: 33px;
+    padding-top: 52.37px;
+  }
+  body main .form .left-form-section .left-form-content {
+    color: white;
+  }
+  body main .form .left-form-section .left-form-content .left-form-head {
+    padding-top: 53px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-text {
+    padding: 17px 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-date {
+    padding: 37px 68px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-timezone {
+    padding: 44px 68px;
+  }
+  body main .form .right-form-section {
+    padding-left: 50px;
+    padding-top: 60px;
+  }
+  body main .form .right-form-section .schedule-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form .month {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .day {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .time {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .input {
+    background-color: #EBFAF4;
+    height: 55px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .txtarea {
+    background-color: #EBFAF4;
+    height: 150px;
+    width: 420px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .labeltxt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 21px;
+  }
+  body main .form .right-form-section .schedule-form .text {
+    width: 400px;
+  }
+  body main .form .right-form-section .schedule-form .form-btn {
+    background-color: #00D285;
+    border: none;
+    width: 420px;
+    height: 55px;
+    padding: 19px 142px 19px 146px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 64px;
+  }
+}
+@media screen and (width: 1025px) {
+  body {
+    margin-right: -100px;
+  }
+  body header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+  }
+  body header .navigations {
+    position: relative;
+    z-index: 1;
+  }
+  body header .navigations .nav-links .nav {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  body header .navigations .nav-links .nav:hover {
+    color: green;
+    font-weight: 600;
+  }
+  body main .Hero-section {
+    display: flex;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  body main .Hero-section .left-hero-section {
+    padding-left: 30px;
+  }
+  body main .Hero-section .right-hero-section {
+    padding: 80px 70px;
+  }
+  body main .Hero-section .right-hero-section .line {
+    position: absolute;
+    top: 140px;
+    left: 420px;
+    width: 50px;
+  }
+  body main .Hero-section .right-hero-section .hero-head {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  body main .Hero-section .right-hero-section .hero-content {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+  }
+  body main .Hero-section .svg {
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 300 px;
+    top: -50px;
+    left: 70px;
+    flex-shrink: 0;
+  }
+  body main .dots {
+    position: absolute;
+    left: 350px;
+    bottom: -350px;
+  }
+  body main .form {
+    padding-top: 150px;
+    display: flex;
+    padding-left: 10px;
+  }
+  body main .form .left-form-section {
+    background-color: black;
+    width: 455;
+    height: 459px;
+    flex-shrink: 0;
+  }
+  body main .form .left-form-section .petrong {
+    padding-left: 33px;
+    padding-top: 52.37px;
+  }
+  body main .form .left-form-section .left-form-content {
+    color: white;
+  }
+  body main .form .left-form-section .left-form-content .left-form-head {
+    padding-top: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-text {
+    padding: 17px 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-date {
+    padding: 37px 68px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-timezone {
+    padding: 44px 68px;
+  }
+  body main .form .right-form-section {
+    padding-left: 30px;
+    padding-top: 150px;
+  }
+  body main .form .right-form-section .schedule-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form .month {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .day {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .time {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .input {
+    background-color: #EBFAF4;
+    height: 55px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .txtarea {
+    background-color: #EBFAF4;
+    height: 150px;
+    width: 420px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .labeltxt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 21px;
+  }
+  body main .form .right-form-section .schedule-form .text {
+    width: 400px;
+  }
+  body main .form .right-form-section .schedule-form .form-btn {
+    background-color: #00D285;
+    border: none;
+    width: 420px;
+    height: 55px;
+    padding: 19px 142px 19px 146px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 64px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  body {
+    margin: auto;
+  }
+  body header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+    position: relative;
+    z-index: 2;
+  }
+  body header .navigations {
+    position: relative;
+    z-index: 1;
+  }
+  body header .navigations .nav-links .nav {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    padding-top: 100px;
+    text-transform: uppercase;
+  }
+  body header .navigations .nav-links .nav:hover {
+    color: green;
+    font-weight: 600;
+  }
+  body main .Hero-section {
+    display: flex;
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+  }
+  body main .Hero-section .left-hero-section {
+    padding-left: 30px;
+  }
+  body main .Hero-section .right-hero-section {
+    padding: 80px 70px;
+  }
+  body main .Hero-section .right-hero-section .line {
+    position: absolute;
+    top: 140px;
+    left: 600px;
+    width: 50px;
+  }
+  body main .Hero-section .right-hero-section .hero-head {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    padding-bottom: 17px;
+  }
+  body main .Hero-section .right-hero-section .hero-content {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+  }
+  body main .Hero-section .svg {
+    position: absolute;
+    z-index: -1;
+    width: 200px;
+    height: 300 px;
+    top: -100px;
+    left: 10px;
+    flex-shrink: 0;
+  }
+  body main .dots {
+    position: absolute;
+    left: 950px;
+    bottom: 50px;
+  }
+  body main .form {
+    padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body main .form .left-form-section {
+    background-color: black;
+    width: 455px;
+    height: 459px;
+    flex-shrink: 0;
+  }
+  body main .form .left-form-section .petrong {
+    padding-left: 33px;
+    padding-top: 52.37px;
+  }
+  body main .form .left-form-section .left-form-content {
+    color: white;
+  }
+  body main .form .left-form-section .left-form-content .left-form-head {
+    padding-top: 53px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-text {
+    padding: 17px 38px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-date {
+    padding: 37px 68px;
+  }
+  body main .form .left-form-section .left-form-content .left-form-timezone {
+    padding: 44px 68px;
+  }
+  body main .form .right-form-section .schedule-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  body main .form .right-form-section .schedule-form .top-form .month {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .day {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .top-form .time {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .form .right-form-section .schedule-form .input {
+    background-color: #EBFAF4;
+    height: 55px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .txtarea {
+    background-color: #EBFAF4;
+    height: 150px;
+    width: 420px;
+    border: none;
+  }
+  body main .form .right-form-section .schedule-form .labeltxt {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 21px;
+  }
+  body main .form .right-form-section .schedule-form .text {
+    width: 400px;
+  }
+  body main .form .right-form-section .schedule-form .form-btn {
+    background-color: #00D285;
+    border: none;
+    width: 420px;
+    height: 55px;
+    padding: 19px 142px 19px 146px;
+    color: white;
+    margin-top: 24px;
+    margin-bottom: 64px;
+  }
+}/*# sourceMappingURL=bookacall.css.map */

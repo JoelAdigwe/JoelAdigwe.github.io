@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEDEV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container mx-auto">
+    <header class="container mx-auto bg-black px-6 items-center  h-[70px] flex justify-between">
+        <div class="flex items-center justify-between w-full text-white">
+            <img src="./images/wedevlogo.png" alt="" width="150px" height="60px">
+            <!-- <a href="" class="text-2xl font-bold tracking-[5px]">WEDEV</a> -->
+            <button class="flex p-2 lg:hidden text-white" id="ham" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>
+        <nav class="hidden lg:flex">
+            <a href="" class="px-4 font-medium text-sm uppercase text-green-500">Home</a>
+            <a href="about.html" class="px-4 font-medium text-sm uppercase text-white">About</a>
+            <a href="expertise.html" class="px-4 font-medium text-sm uppercase text-white">Expertise</a>
+            <a href="contact.html" class="px-4 font-medium text-sm uppercase text-white">Contact</a>
+        </nav>
+        <div class="mobile-menu" id="mob-menu">
+            <a href="index.html" class="mobile-navs">Home</a>
+            <a href="about.html" class="mobile-navs">About</a>
+            <a href="expertise.html" class="mobile-navs">Expertise</a>
+            <a href="contact.html" class="mobile-navs">Contact</a>
+        </div>
+    </header>
+    <section
+        class="py-10 px-10 bg-black m-0 lg:bg-[url('/images/herobg.png')] lg:bg-no-repeat lg:bg-[right_150px_bottom_70px] xl:bg-[right_290px_bottom_70px] 2xl:bg-[right_450px_bottom_50px]">
+        <div class="flex flex-wrap-reverse">
+            <div class="w-full md:w-1/2 mb-16 xl:pl-[80px] md:pt-[80px]">
+                <h1
+                    class="xl:text-[53px] text-[40px] leading-[50px] font-bold non-italic text-white pb-[30px] lg:w-[549px]">
+                    Get the next<br>
+                    level developments. </h1>
+                <p class="text-white xl:w-[519px] text-[14px] font-semibold leading-7">
+                    Every line of code we deliver is carefully crafted by our in-house team of
+                    professional developers. While constantly looking for new horizons,
+                    challenges, and opportunities in the web development, we
+                    have focused our attention on these core areas:
+                </p>
+                <a href="quote.html"><button
+                    class="rounded-full bg-green-400 w-[200px] text-[14px] md:w-[150px] lg:w-[200px] font-semibold text-white h-[55px] mt-[40px]">Get
+                    a quote</button></a>
+                <a href="bookacall.html"><button
+                    class="rounded-full bg-white w-[200px] h-[55px] mt-[40px] md:w-[150px] lg:w-[200px] md:ml-[5px] font-semibold text-[14px] xl:ml-[20px]">Schedule
+                    a call</button></a> 
+            </div>
+            <div class="w-full md:w-1/2 mb-16 md:pl-[30px] md:pt-[65px] lg:pt-0">
+                <img src="./images/hero.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="bg-white py-10 px-6">
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 lg:pl-[50px] md:pt-[50px] xl:pt-[55px] 2xl:pl-[150px]">
+                <img src="./images/section2.jpg" alt="" width="455px" class="md:h-[700px] xl:h-[521px]">
+            </div>
+            <div class="w-full md:w-1/2">
+                <h5 class="text-[30px] md:text-[36px] font-bold pb-[14px] md:pl-[18px] xl:pl-0">Our Core Services</h5>
+                <p
+                    class="text-[14px] font-medium md:w-[300px] lg:w-[400px] md:pl-[10px] xl:pl-0 xl:w-[484px] leading-7 md:pl-[18px] xl:pl-0">
+                    Our technology solutions are perfectly designed to ensure the virtual
+                    world meets your needs.</p>
+                <div class="py-[30px] md:pl-[30px] xl:pl-0 flex">
+                    <div class="md:pr-[10px] pt-[7px] pr-[5px]"><img src="./images/web.png" alt=""></div>
+                    <div>
+                        <h5 class="text-[14px] font-bold pb-[5px]">Web Development</h5>
+                        <p class="text-[12px] font-normal md:w-[200px] xl:w-[437px]">We convert any design file: PSD,
+                            Sketch, Figma, Adobe XD to pixel-perfect,
+                            semantic, and standard-compliant HTML/CSS templates.
+                        </p>
+                    </div>
+                </div>
+                <div class="py-[30px] md:pl-[30px] xl:pl-0 flex">
+                    <div class="md:pr-[10px] pt-[7px] pr-[5px]"><img src="./images/Mobile.png" alt=""></div>
+                    <div>
+                        <h5 class="text-[14px] font-bold pb-[5px]">Mobile Applications</h5>
+                        <p class="text-[12px] font-normal md:w-[200px] xl:w-[437px]">We do highly customizable,
+                            easy-to-manage, and extendable WordPress solutions.
+                            Plugins, themes, or an eCommerce. We can do it.</p>
+                    </div>
+                </div>
+                <div class="py-[30px] md:pl-[30px] xl:pl-0 flex">
+                    <div class="md:pr-[10px] pt-[7px] pr-[5px]"><img src="./images/shopify.png" alt=""></div>
+                    <div>
+                        <h5 class="text-[14px] font-bold pb-[5px]">Shopify & Woo Commerce Development</h5>
+                        <p class="text-[12px] font-normal md:w-[200px] xl:w-[437px]">We know the ins and outs of Shopify
+                            & WooCommerce and we can help you get your
+                            eCommerce
+                            site running in a matter of weeks.</p>
+                    </div>
+                </div>
+                <div class="py-[30px] md:pl-[30px] xl:pl-0 flex">
+                    <div class="md:pr-[10px] pt-[7px] pr-[5px]"><img src="./images/vue.png" alt=""></div>
+                    <div>
+                        <h5 class="text-[14px] font-bold pb-[5px] ">Vue-React Development & Email Template Coding</h5>
+                        <p class="text-[12px] font-normal md:w-[200px] xl:w-[437px]">Performance, Scalability, Reusable
+                            Components, One Way Data Flow - the perfect
+                            ingredients for building websites or web apps; also high class coding for
+                            email marketing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-10 px-4">
+        <div class="flex flex-wrap md:relative xl:relative lg:h-[600px]">
+            <div class="w-full 2xl:w-1/2 xl:w-[596px] md:w-1/2 bg-black md:py-[100px] lg:py-[50px]">
+                <div
+                    class="md:pl-[10px] lg:pl-[40px] xl:pl-[50px] xl:pl-[5px] 2xl:pl-[130px] md:absolute md:left-[20px] xl:absolute xl:left-[40px]">
+                    <img src="./images/wedev.jpg" alt="" width=""
+                        class="md:w-[380px] lg:w-[500px] xl:w-[607px] lg:h-[472px]"></div>
+            </div>
+            <div
+                class="w-full 2xl:w-1/2 xl:w-[652px] md:w-1/2 bg-green-100 md:pl-[70px] lg:pt-[100px] bg-[url('/images/ropey.png')] lg:pl-[100px]">
+                <h2 class="pl-[3px] text-[30px] md:text-[36px] font-bold lg:pb-[30px]">Partnership for agencies</h2>
+                <p
+                    class="pl-[6px] 2xl:w-[569px] md:w-[250px] lg:w-[300px] xl:w-[400px] text-[14px] font-normal leading-7 pb-[10px]">
+                    A reliable coding partner that delivers solutions to your business challenges and
+                    stays by your side in the long term. Having the whole spectrum of web
+                    development expertise, we are here to take care of your projects while 
+                    making it possible for you to focus on growing your own business.</p>
+                <button
+                    class="ml-[8px] md:ml-0 rounded-full bg-green-400 w-[200px] text-[14px] my-[10px] md:w-[150px] lg:w-[200px] font-semibold text-white h-[55px] md:mt-[20px] xl:mt-[40px] ">Partnership
+                    Details</button>
+            </div>
+        </div>
+        <div class="flex flex-wrap bg-green-100">
+            <div class="w-full md:w-1/2 xl:w-1/2 lg:w-[392px] pt-[20px] pl-[3px] lg:pl-[50px] md:pl-[20px] md:pt-[40px] lg:pt-[60px]">
+                <h4 class="text-[18px] font-medium"> <span class="w-[200px] h-[20px] text-green-500">------</span> TESTIMONIALS</h4>
+                <p class="text-[18px] font-normal">See how our clients feel about us.</p>
+                <p class="pt-[50px] md:pt-[200px] pb-[20px] font-semibold text-[18px]"> <span class="w-[200px] h-[20px] text-green-500">------</span> ABOUT WEDEV</p>
+            </div>
+            <div class="flex w-full md:w-1/2 xl:w-1/2 lg:w-[600px] lg:pt-[20px] pt-[20px] py-[12px] xl:pr-[20px] pl-[20px] md:pl-0 lg:bg-[url('/images/boxbg.png')] lg:bg-no-repeat lg:bg-[center_right_130px] xl:bg-[center_right_100px] 2xl:bg-[center_right_200px]">
+                <div class="lg:py-[20px] py-[10px] lg:px-[20px] bg-white lg:w-[450px] xl:w-[500px] lg:h-[240px] w-[250px] px-[15px] rounded">
+                    <div><img src="./images/John.png" alt="" class="w-[50px] h-[50px]"></div>
+                    <p class="text-[14px] font-light leading-7 text-gray-500">Working with the WEDEV team has been a huge success! They're
+                        good people who care deeply about our business!</p>
+                    <h4 class="lg:pt-[12px] text-[14px] font-normal xl:pb-[12px]">John Doe</h4>
+                    <span class="flex justify-between">
+                        <p class="font-bold">CEO</p>
+                        <p class="font-normal">Leonard Technologies</p>
+                    </span>    
+                </div>
+                <div class="md:pl-[30px] lg:pl-[50px] xl:pl-[60px] 2xl:pl-[80px] md:pt-[120px] hidden md:block">
+                    <img src="./images/up.png" alt="" class="bg-[url('/images/upcircle.png')] bg-no-repeat bg-cover">
+                    <img src="./images/down.png" alt="" class="bg-[url('/images/downcircle.png')] bg-no-repeat bg-cover mt-[20px]">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-wrap md:relative xl:relative lg:h-[600px]">
+            <div class="w-full 2xl:w-1/2 xl:w-[596px] md:w-1/2 bg-black md:py-[100px] lg:py-[50px]">
+                <div
+                    class="md:pl-[10px] lg:pl-[40px] xl:pl-[50px] xl:pl-[5px] 2xl:pl-[130px] md:absolute md:left-[20px] xl:absolute xl:left-[40px]">
+                    <img src="./images/wedev.jpg" alt="" width=""
+                        class="md:w-[380px] lg:w-[500px] xl:w-[607px] lg:h-[472px] rounded"></div>
+            </div>
+            <div
+                class="w-full 2xl:w-1/2 xl:w-[652px] md:w-1/2 bg-green-100 md:pl-[70px] lg:pt-[100px] bg-[url('/images/ropey.png')] lg:pl-[100px]">
+                <h2 class="pl-[3px] text-[30px] md:text-[36px] font-bold lg:pb-[30px]">PETRONG & WEDEV</h2>
+                <p
+                    class="pl-[6px] 2xl:w-[569px] md:w-[250px] lg:w-[300px] xl:w-[400px] text-[14px] font-normal leading-7 pb-[10px]"> PETRONG is the flagship product at WEDEV software solutions, a tailored digital 
+                    lending tools that helps microfinance institutions to efficiently and quickly 
+                    onboard customers and to account reconciliation with financial inclution
+                    as the motivation.
+                    Pacioli improves female customers comfort with the service by specifically
+                    design for unique constraint. </p>
+                <button
+                    class="ml-[8px] md:ml-0 rounded-full bg-green-400 w-[200px] text-[14px] my-[10px] md:w-[150px] lg:w-[200px] font-semibold text-white h-[55px] md:mt-[20px] xl:mt-[40px]">PETRONG</button>
+                <button class="ml-[8px] md:ml-0 rounded-full bg-green-400 w-[200px] text-[14px] my-[10px] md:w-[150px] lg:w-[200px] font-semibold text-white h-[55px] md:mt-[20px] xl:mt-[40px]">Demo video</button>    
+            </div>
+        </div>
+    </section>
+    <section class="py-10 px-6 bg-white">
+        <h1 class="text-center text-[36px] font-bold pb-[8px]">Our Promise</h1>
+        <p class="text-center text-[14px] font-normal">As part of our high quality service, we'd like to offer something extra too.</p>
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 xl:pl-[70px] 2xl:pl-[85px] pt-[30px]">
+            <div class="md:flex justify-around box rounded-[10px] py-[20px] md:py-[50px] pl-[20px] md:w-[350px] md:h-[300px] lg:w-[300px] xl:w-[366px]">
+                <div class="pt-[10px]"><img src="./images/Programming.png" alt=""></div>
+                <div>
+                <h4 class="font-semibold text-[24px]">Top Code Quality</h4>
+                <p class="text-[14px] font-medium leading-10 md:w-[253px]">What we promise is not simply code
+                    but rather a solution. You get a W3C
+                    fully compliant markup with no
+                    compromise on quality.</p>
+                </div>    
+            </div>
+            <div class="md:flex justify-around box rounded-[10px] py-[20px] md:py-[50px] pl-[20px] md:w-[350px] md:h-[300px] lg:w-[300px] xl:w-[366px]">
+                <div class="pt-[10px]"><img src="./images/Responsive.png" alt=""></div>
+                <div>
+                <h4 class="font-semibold text-[24px]">Responsive</h4>
+                <p class="text-[14px] font-medium leading-10 md:w-[253px]"> We know you look for positive attitude,
+                    timely reactions, and flexibility. We are
+                    here to listen and give the utmost
+                    of our capabilities. </p>
+                </div> 
+            </div>
+            <div class="md:flex justify-around box rounded-[10px] py-[20px] md:py-[50px] pl-[20px] md:w-[350px] md:h-[300px] lg:w-[300px] xl:w-[366px]">
+                <div class="pt-[10px]"><img src="./images/team.png" alt=""></div>
+                <div>
+                <h4 class="font-semibold text-[24px]">Rockstar Team</h4>
+                <p class="text-[14px] font-medium leading-10 md:w-[253px]">Expertise is our USP. You get an all-star
+                    squad of experienced geeks, fully at
+                    your service and armed with coding 
+                    skills to die for.</p>
+                </div>
+            </div>               
+            <div class="md:flex justify-around box rounded-[10px] py-[20px] md:py-[50px] pl-[20px] md:w-[350px] md:h-[300px] lg:w-[300px] xl:w-[366px]">
+                <div class="pt-[10px]"><img src="./images/fast.png" alt=""></div>
+                <div>
+                <h4 class="font-semibold text-[24px]">Fast Turn-arounds</h4>
+                <p class="text-[14px] font-medium leading-10 md:w-[253px]">Speed matters no less than quality. We
+                    are fast, agile and capable of delivering
+                    top notch quality code in a timeframe
+                    chosen by you.</p>
+                </div>    
+            </div>
+            <div class="md:flex justify-around box rounded-[10px] py-[20px] md:py-[50px] pl-[20px] md:w-[350px] md:h-[300px] lg:w-[300px] xl:w-[366px]">
+                <div class="pt-[10px]"><img src="./images/Support.png" alt=""></div>
+                <div>
+                <h4 class="font-semibold text-[24px]">Life-Time Support</h4>
+                <p class="text-[14px] font-medium leading-10 md:w-[253px]"> The ultimate proof of our code quality :
+                    you get our non-expiring support. If any
+                    bugs happen to appear in the future,
+                    just write us a line. </p>
+                </div> 
+            </div>
+            <div class="md:flex justify-around box rounded-[10px] py-[20px] md:py-[50px] pl-[20px] md:w-[350px] md:h-[300px] lg:w-[300px] xl:w-[366px]">
+                <div class="pt-[10px]"><img src="./images/Secure.png" alt=""></div>
+                <div>
+                <h4 class="font-semibold text-[24px]">Secured Agreement</h4>
+                <p class="text-[14px] font-medium leading-10 md:w-[253px]"> Your artwork is fully yours and we would
+                    never claim otherwise. You get our word
+                    and our full willingness to sign an NDA. </p>
+                </div>
+            </div>               
+        </div>
+    </section>
+    <section class="bg-green-100 py-16 py-6 md:py-[80px]">
+        <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 px-4 lg:pl-12 xl:pl-40">
+                <h1 class="text-[36px] font-medium">
+                    Do you have a next level-idea?
+                </h1>
+                <p class="text-gray-500">
+                    Reach out and we can create magic together
+                </p>
+            </div>
+            <div class="w-full md:w-1/2 mt-16 pl-4 md:mt-4 lg:m-0 lg:pl-8 xl:pl-40">
+            <a href="contact.html"><button class="bg-green-500 us text-white py-4 px-8 rounded-full uppercase">Work with us</button></a>
+            </div>
+        </div>
+    </section>
+    <footer class="flex flex-wrap justify-between px-6 bg-[url('images/footer.png')] bg-no-repeat bg-cover h-[850px] md:h-[560px] md:pt-[100px] pt-[12px]">
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6 lg:pl-[50px] 2xl:pl-[140px]">
+            <h5 class="text-white pb-[5px]">Quick Links</h5>
+            <ul>
+              <li><a href="index.html" class="text-gray-500 hover:text-blue-700 hover:underline">Home</a></li>
+              <li><a href="about.html" class="text-gray-500 hover:text-blue-700 hover:underline">About</a></li>
+              <li><a href="expertise.html" class="text-gray-500 hover:text-blue-700 hover:underline">Expertise</a></li>
+              <li><a href="contact.html" class="text-gray-500 hover:text-blue-700 hover:underline">Contact</a></li>
+            </ul>
+        </div>
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
+          <h5 class="text-white pb-[5px]">Our Services</h5>
+          <ul>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Web Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Digital Project Design</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Cloud/DevOps</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Mobile Applications</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Dedicated Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Team</a></li>
+          </ul>
+        </div>
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
+          <h5 class="text-white pb-[5px]">Our Technologies</h5>
+          <ul>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Laravel Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">React Js App Development</a></li>
+              <li><a href="" class="text-gray-500 hover:text-blue-700 hover:underline">Vue Js App Development</a></li>
+          </ul>
+        </div>
+        <div class="w-full text-center md:w-2/4 md:text-left lg:w-1/4 mb-6">
+          <h5 class="text-white pb-[5px]">Contact & Follow Us</h5>
+          <div class="flex justify-center md:pr-[270px] lg:pr-[150px] xl:pr-[220px] 2xl:pr-[280px]">
+            <a href=""><img src="./images/linkedin .png" alt=""></a>
+            <a href=""><img src="./images/instagram .png" alt="" class="pl-2"></a>
+            <a href=""><img src="./images/fb.png" alt=""></a> 
+            <a href="" class="pt-[4px]"><img src="./images/youtube.png" alt=""></a> 
+          </div>
+          <ul class="pt-[5px]">
+              <li class="text-gray-500 hover:text-blue-700 hover:underline">
+                  <div>
+                      <i class="fa-solid fa-phone-volume text-white"></i>
+                      Phone: +2348163617315</div>
+              </li>
+              <li class="text-gray-500 hover:text-blue-700 hover:underline">
+                  <div>
+                      <i class="fa-solid fa-envelope text-white"></i>
+                  E-mail: <span class="text-green-500">joeladigwe2003@gmail.com</span>
+                  </div>
+              </li>
+          </ul> 
+        </div>
+        <span class="text-slate-300 lg:pt-[30px] 2xl:pl-[50px]">WEDEV Software Solution Copyright 2023  - All Right Reserved</span>
+        <div>
+            <div class="lg:pr-[100px]"><img src="./images/wedevlogo.png" alt="" width="150px" height="60px"></div>
+            <p class="text-green-500 text-[20px]">WEDEV Software Solution</p>
+        </div>
+        <!-- <div class="text-green-500 flex"><img src="./images/logo.png" alt="" height="6px" width="">
+          <h3 class=""><span class="text-[36px]">JUM</span> Software Solution</h3>
+       </div> -->
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

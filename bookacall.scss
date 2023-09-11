@@ -1,0 +1,1623 @@
+// *RESET CSS*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    max-width: 1440px;
+    header {
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        padding: 0 100px;
+        position: relative;
+        z-index: 2;
+        
+
+
+        .logo {
+            text-decoration: none;
+            color: green;
+            margin-left: 50;
+            margin-top: 23px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            
+
+        }
+
+        .navigations {
+            position: relative;
+            z-index: 1;
+            .nav-links {
+                .nav {
+                    // display: flex;
+                    // flex-direction: column
+                    // justify-content: space-between;
+                    // align-items: center;
+                    text-decoration: none;
+                    color: white;
+                    // height: 100px;
+                    padding: 0 30px;
+                    text-transform: uppercase;
+
+                    &:hover {
+                        color: green;
+                        font-weight: 600;
+                    }
+                }
+
+                .fa-bars {
+                    display: none;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .mobile-menu{
+            background-color: rgba(13, 13, 13, 0.844);
+            display: none;
+
+
+
+            .mobile-head {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                padding: 15px 30px;
+            }
+        }
+
+    }
+
+    main {
+        .Hero-section {
+            background-color: #EBFAF4;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 53px;
+            position: relative;
+            z-index: 1;
+
+            .right-hero-section {
+                // position: relative;
+                // text-align: center;
+                padding: 150px 150px;
+
+                .line {
+                    border: 2px solid #00D285;
+                    width: 56px;
+                    height: 3px;
+                    position: absolute;
+                    // bottom: -10px;
+                    top: 225px;
+                    left: 570px;
+
+                
+
+                }
+
+                .hero-head {
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    padding-bottom: 17px;
+                }
+
+                .hero-content {
+                    // text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    // padding-right: 146px;
+                }
+
+
+
+
+
+
+            }
+
+            .svg {
+                position: absolute;
+                z-index: -1;
+                width: 200px;
+                height: 300 px;
+                top: -100px;
+                left: 50px;
+                // padding-left:50px;
+                flex-shrink: 0;
+
+            }
+        }
+
+
+        .dots {
+            position: absolute;
+            left: 350px;
+            bottom: -200px;
+            z-index: -1;
+        }
+
+        .form {
+            padding-top: 155px;
+            display: flex;
+            padding-left: 58px;
+
+            .left-form-section {
+                background-color: black;
+                width: 455px;
+                height: 459px;
+                flex-shrink: 0;
+
+                .petrong {
+                    padding-left: 23px;
+                    padding-top: 52.37px;
+                    display: flex;
+                    // position: relative;
+                    // .petrong-circle{
+                    //     position:relative;
+                    // }
+
+                    // .petrong-logo{
+                    //     margin-right: 200px;
+                    // }
+
+                    .petrong-txt{
+                        color: #fff;
+                        font-family: Arial, Helvetica, sans-serif;
+                        font-weight: 600px;
+                        font-size: large;
+                    }
+                }
+
+                .left-form-content {
+                    color: white;
+                    // padding-left: 38px;
+
+                    .left-form-head {
+                        padding-top: 53px;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-left: 38px;
+                    }
+
+                    .left-form-text {
+                        padding: 17px 38px;
+                    }
+
+                    .left-form-date {
+                        padding: 37px 68px;
+                    }
+
+                    .left-form-timezone {
+                        padding: 44px 68px;
+                    }
+
+                }
+            }
+
+            .right-form-section {
+                padding:50px 200px;
+
+
+
+                .schedule-form {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .top-form {
+                        display: flex;
+                        justify-content: space-between;
+                        // align-items: flex-start;
+                        // justify-content: space-evenly;
+
+                        .month {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .day {
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .time {
+                            display: flex;
+                            flex-direction: column;
+
+                        }
+                    }
+
+                    .input {
+                        // border-radius: 5px;
+                        background-color: #EBFAF4;
+                        height: 55px;
+                        border: none;
+
+                    }
+
+                    .txtarea {
+                        background-color: #EBFAF4;
+                        height: 150px;
+                        width: 420px;
+                        border: none;
+                    
+                    }
+
+                    .labeltxt {
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        padding-bottom: 21px;
+
+                    }
+
+                    .text {
+                        width: 400px;
+                    }
+
+                    .form-btn {
+                        background-color: #00D285;
+                        border: none;
+                        width: 420px;
+                        height: 55px;
+                        padding: 19px 142px 19px 146px;
+                        color: white;
+                        margin-top: 24px;
+                        margin-bottom: 64px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer {
+        background-color: rgba(26, 26, 26, 1);
+        height: 580px;
+        margin: auto;
+        padding: 30px 60px;
+        // margin-left: 30px;
+        display: flex;
+
+        .footer-con {
+            display: block;
+            color: #fff;
+
+            .footer-nav-items {
+                padding: 20px 0;
+                margin-left: 50px;
+            }
+
+            .item {
+                display: inline-block;
+            }
+
+            li {
+                list-style: none;
+                margin-top: 5px;
+
+                div {
+                    margin: 0 5px;
+
+                    .contact-img {
+                        background-image: url(./images/Ellipse\ 4\ \(1\).png);
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        width: 20px;
+                        height: 19.248px;
+                        flex-shrink: 0;
+                        padding: 0 1px;
+                        margin: 2px 8px;
+                    }
+
+                }
+            }
+
+            .fa-envelope {
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media screen  and (min-width:769px) and (max-width: 1300) {
+    body {
+        // margin: auto;
+        margin-right: -400px;
+        // max-width: 1440px;
+        header {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        
+    
+            .navigations {
+                position: relative;
+                z-index: 1;
+                .nav-links {
+                    .nav {
+                        text-decoration: none;
+                        color: white;
+                        // height: 100px;
+                        padding: 0 10px;
+                        padding-top: 100px;
+                    
+                        text-transform: uppercase;
+    
+                        &:hover {
+                            color: green;
+                            font-weight: 600;
+                        }
+                    }
+    
+                }
+    
+            }
+    
+        }
+    
+        main {
+            
+            .Hero-section {
+                display: flex;
+                // flex-wrap: wrap-reverse;
+                // justify-content: space-between;
+                padding-top: 40px;
+                position: relative;
+                z-index: 1;
+
+                .left-hero-section{
+                    padding-left: 30px;
+                }
+    
+                .right-hero-section {
+                    // position: relative;
+                    // text-align: center;
+                    // padding: 150px 150px;
+                    padding: 80px 70px;
+    
+                    .line {
+                        position: absolute;
+                        // bottom: -10px;
+                        top: 140px;
+                        left: 650px;
+                        width: 50px;
+    
+                    
+    
+                    }
+    
+                    .hero-head {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        padding-bottom: 17px;
+                        // padding-top: 10px;
+                    }
+    
+                    .hero-content {
+                        // text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 18px;
+        
+                        font-style: normal;
+                        // padding-right: 146px;
+                    }
+    
+    
+    
+    
+    
+    
+                }
+    
+                .svg {
+                    position: absolute;
+                    z-index: -1;
+                    width: 200px;
+                    height: 300 px;
+                    top: -100px;
+                    left: 10px;
+                    // padding-left:50px;
+                    flex-shrink: 0;
+    
+                }
+            }
+    
+    
+            .dots {
+                position: absolute;
+                left: 300px;
+                bottom: -300px;
+                // z-index: -1;
+            }
+    
+            .form {
+                padding-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                // padding-left: 5px;
+                padding: 0 10px;
+    
+                .left-form-section {
+                    background-color: black;
+                    width: 455px;
+                    height: 459px;
+                    flex-shrink: 0;
+                    // margin: auto;
+    
+                    .petrong {
+                        padding-left: 33px;
+                        padding-top: 52.37px;
+                        // position: relative;
+                        // .petrong-circle{
+                        //     position:relative;
+                        // }
+    
+                        // .petrong-logo{
+                        //     margin-right: 200px;
+                        // }
+                    }
+    
+                    .left-form-content {
+                        color: white;
+                        // padding-left: 38px;
+    
+                        .left-form-head {
+                            padding-top: 53px;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-family: Arial, Helvetica, sans-serif;
+                            padding-left: 38px;
+                        }
+    
+                        .left-form-text {
+                            padding: 17px 38px;
+                        }
+    
+                        .left-form-date {
+                            padding: 37px 68px;
+                        }
+    
+                        .left-form-timezone {
+                            padding: 44px 68px;
+                        }
+    
+                    }
+                }
+    
+                .right-form-section {
+                    padding-left: -10px;
+                    padding-top: 60px;
+    
+    
+    
+                    .schedule-form {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                        .top-form {
+                            display: flex;
+                            justify-content: space-between;
+                            // align-items: flex-start;
+                            // justify-content: space-evenly;
+    
+                            .month {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .day {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .time {
+                                display: flex;
+                                flex-direction: column;
+    
+                            }
+                        }
+    
+                        .input {
+                            // border-radius: 5px;
+                            background-color: #EBFAF4;
+                            height: 55px;
+                            border: none;
+    
+                        }
+    
+                        .txtarea {
+                            background-color: #EBFAF4;
+                            height: 150px;
+                            width: 420px;
+                            border: none;
+                        
+                        }
+    
+                        .labeltxt {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            padding-bottom: 21px;
+    
+                        }
+    
+                        .text {
+                            width: 400px;
+                        }
+    
+                        .form-btn {
+                            background-color: #00D285;
+                            border: none;
+                            width: 420px;
+                            height: 55px;
+                            padding: 19px 142px 19px 146px;
+                            color: white;
+                            margin-top: 24px;
+                            margin-bottom: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }  
+    
+}
+@media screen and (max-width: 1000px) {
+    body {
+        margin: auto;
+        // max-width: 1440px;
+        header {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        
+    
+            .navigations {
+                position: relative;
+                z-index: 1;
+                .nav-links {
+                    .nav {
+                        text-decoration: none;
+                        color: white;
+                        // height: 100px;
+                        padding: 0 10px;
+                        padding-top: 100px;
+                    
+                        text-transform: uppercase;
+    
+                        &:hover {
+                            color: green;
+                            font-weight: 600;
+                        }
+                    }
+    
+                }
+    
+            }
+    
+        }
+    
+        main {
+            .Hero-section {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                // justify-content: space-between;
+                padding-top: 40px;
+                position: relative;
+                z-index: 1;
+
+                .left-hero-section{
+                    padding-left: 80px;
+                }
+    
+                .right-hero-section {
+                    // position: relative;
+                    // text-align: center;
+                    // padding: 150px 150px;
+                    padding: 80px 70px;
+    
+                    .line {
+                        position: absolute;
+                        // bottom: -10px;
+                        top: 140px;
+                        left: 10px;
+    
+                    
+    
+                    }
+    
+                    .hero-head {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        padding-bottom: 17px;
+                        // padding-top: 10px;
+                    }
+    
+                    .hero-content {
+                        // text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 18px;
+        
+                        font-style: normal;
+                        // padding-right: 146px;
+                    }
+    
+    
+    
+    
+    
+    
+                }
+    
+                .svg {
+                    position: absolute;
+                    z-index: -1;
+                    width: 200px;
+                    height: 300 px;
+                    top: -100px;
+                    left: 10px;
+                    // padding-left:50px;
+                    flex-shrink: 0;
+    
+                }
+            }
+    
+    
+            .dots {
+                position: absolute;
+                left: 500px;
+                bottom: -800px;
+                z-index: -1;
+            }
+    
+            .form {
+                padding-top: 155px;
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 58px;
+    
+                .left-form-section {
+                    background-color: black;
+                    width: 455px;
+                    height: 459px;
+                    flex-shrink: 0;
+                    margin: auto;
+    
+                    .petrong {
+                        padding-left: 33px;
+                        padding-top: 52.37px;
+                        // position: relative;
+                        // .petrong-circle{
+                        //     position:relative;
+                        // }
+    
+                        // .petrong-logo{
+                        //     margin-right: 200px;
+                        // }
+                    }
+    
+                    .left-form-content {
+                        color: white;
+                        // padding-left: 38px;
+    
+                        .left-form-head {
+                            padding-top: 53px;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-family: Arial, Helvetica, sans-serif;
+                            padding-left: 38px;
+                        }
+    
+                        .left-form-text {
+                            padding: 17px 38px;
+                        }
+    
+                        .left-form-date {
+                            padding: 37px 68px;
+                        }
+    
+                        .left-form-timezone {
+                            padding: 44px 68px;
+                        }
+    
+                    }
+                }
+    
+                .right-form-section {
+                    padding-left: 127px;
+                    padding-top: 60px;
+    
+    
+    
+                    .schedule-form {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                        .top-form {
+                            display: flex;
+                            justify-content: space-between;
+                            // align-items: flex-start;
+                            // justify-content: space-evenly;
+    
+                            .month {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .day {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .time {
+                                display: flex;
+                                flex-direction: column;
+    
+                            }
+                        }
+    
+                        .input {
+                            // border-radius: 5px;
+                            background-color: #EBFAF4;
+                            height: 55px;
+                            border: none;
+    
+                        }
+    
+                        .txtarea {
+                            background-color: #EBFAF4;
+                            height: 150px;
+                            width: 420px;
+                            border: none;
+                        
+                        }
+    
+                        .labeltxt {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            padding-bottom: 21px;
+    
+                        }
+    
+                        .text {
+                            width: 400px;
+                        }
+    
+                        .form-btn {
+                            background-color: #00D285;
+                            border: none;
+                            width: 420px;
+                            height: 55px;
+                            padding: 19px 142px 19px 146px;
+                            color: white;
+                            margin-top: 24px;
+                            margin-bottom: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }  
+    
+}
+@media screen and (min-width:200px) and (max-width: 600px) {
+    body {
+        // margin: auto;
+        margin-right: -600px;
+        // max-width: 1440px;
+        header {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            padding: 0 5px;
+            position: relative;
+            z-index: 2;
+        
+            .logo{
+                padding-left: 80px;
+            }
+    
+            .navigations {
+                position: relative;
+                z-index: 1;
+                .nav-links {
+                    display: none;
+                    .nav {
+                        text-transform: uppercase;
+                    }
+
+                  
+    
+                } 
+                 .fa-bars{
+                        display:block;
+                        color: white;
+                        padding-right: 80px;
+                        // margin-right: -200px;
+                    }
+    
+            }
+            .mobile-menu{
+            background-color: rgba(13, 13, 13, 0.844);
+            display: none;
+            position: absolute;
+            right: 0px;
+            top: 70px;
+
+
+
+            .mobile-head {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                padding: 15px 30px;
+            }
+        }
+        .show-menu{
+            display: block;
+        }
+    
+        }
+    
+        main {
+            .Hero-section {
+                display: flex;
+                flex-wrap: wrap-reverse;
+                // justify-content: space-between;
+                padding-top: 40px;
+                position: relative;
+                z-index: 1;
+
+                .left-hero-section{
+                    padding-left: 80px;
+                    display: none;
+                }
+    
+                .right-hero-section {
+                    // position: relative;
+                    // text-align: center;
+                    // padding: 150px 150px;
+                    padding: 80px 70px;
+    
+                    .line {
+                        position: absolute;
+                        // bottom: -10px;
+                        top: 140px;
+                        left: 10px;
+    
+                    
+    
+                    }
+    
+                    .hero-head {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        padding-bottom: 17px;
+                        // padding-top: 10px;
+                    }
+    
+                    .hero-content {
+                        // text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 18px;
+        
+                        font-style: normal;
+                        // padding-right: 146px;
+                    }
+    
+    
+    
+    
+    
+    
+                }
+    
+                .svg {
+                    position: absolute;
+                    z-index: -1;
+                    width: 200px;
+                    height: 300 px;
+                    top: -100px;
+                    left: 10px;
+                    display: none;
+                    // padding-left:50px;
+                    flex-shrink: 0;
+    
+                }
+            }
+    
+    
+            .dots {
+                position: absolute;
+                left: 500px;
+                bottom: -800px;
+                z-index: -1;
+                display: none;
+            }
+    
+            .form {
+                padding-top: 155px;
+                display: flex;
+                flex-wrap: wrap;
+                padding-left: 58px;
+    
+                .left-form-section {
+                    background-color: black;
+                    width: 455px;
+                    height: 459px;
+                    flex-shrink: 0;
+                    margin-left: 35px;
+    
+                    .petrong {
+                        padding-left: 33px;
+                        padding-top: 52.37px;
+                        // position: relative;
+                        // .petrong-circle{
+                        //     position:relative;
+                        // }
+    
+                        // .petrong-logo{
+                        //     margin-right: 200px;
+                        // }
+                    }
+    
+                    .left-form-content {
+                        color: white;
+                        // padding-left: px;
+                        // margin-left: -500px;
+            
+    
+                        .left-form-head {
+                            padding-top: 53px;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-family: Arial, Helvetica, sans-serif;
+                            padding-left: 38px;
+                        }
+    
+                        .left-form-text {
+                            padding: 17px 38px;
+                        }
+    
+                        .left-form-date {
+                            padding: 37px 68px;
+                        }
+    
+                        .left-form-timezone {
+                            padding: 44px 68px;
+                        }
+    
+                    }
+                }
+    
+                .right-form-section {
+                    padding-left: 50px;
+                    padding-top: 60px;
+    
+    
+    
+                    .schedule-form {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                        .top-form {
+                            display: flex;
+                            justify-content: space-between;
+                            // align-items: flex-start;
+                            // justify-content: space-evenly;
+    
+                            .month {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .day {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .time {
+                                display: flex;
+                                flex-direction: column;
+    
+                            }
+                        }
+    
+                        .input {
+                            // border-radius: 5px;
+                            background-color: #EBFAF4;
+                            height: 55px;
+                            border: none;
+    
+                        }
+    
+                        .txtarea {
+                            background-color: #EBFAF4;
+                            height: 150px;
+                            width: 420px;
+                            border: none;
+                        
+                        }
+    
+                        .labeltxt {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            padding-bottom: 21px;
+    
+                        }
+    
+                        .text {
+                            width: 400px;
+                        }
+    
+                        .form-btn {
+                            background-color: #00D285;
+                            border: none;
+                            width: 420px;
+                            height: 55px;
+                            padding: 19px 142px 19px 146px;
+                            color: white;
+                            margin-top: 24px;
+                            margin-bottom: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }  
+    
+}
+@media screen  and (width:1025px){
+    body {
+        // margin: auto;
+        margin-right:-100px ;
+        // max-width: 1440px;
+        header {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        
+    
+            .navigations {
+                position: relative;
+                z-index: 1;
+                .nav-links {
+                    .nav {
+                        text-decoration: none;
+                        color: white;
+                        // height: 100px;
+                        padding: 0 10px;
+                        padding-top: 100px;
+                    
+                        text-transform: uppercase;
+    
+                        &:hover {
+                            color: green;
+                            font-weight: 600;
+                        }
+                    }
+    
+                }
+    
+            }
+    
+        }
+    
+        main {
+            
+            .Hero-section {
+                display: flex;
+                // flex-wrap: wrap-reverse;
+                // justify-content: space-between;
+                padding-top: 40px;
+                position: relative;
+                z-index: 1;
+
+                .left-hero-section{
+                    padding-left: 30px;
+                }
+    
+                .right-hero-section {
+                    // position: relative;
+                    // text-align: center;
+                    // padding: 150px 150px;
+                    padding: 80px 70px;
+    
+                    .line {
+                        position: absolute;
+                        // bottom: -10px;
+                        top: 140px;
+                        left: 420px;
+                        width: 50px;
+    
+                    
+    
+                    }
+    
+                    .hero-head {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        padding-bottom: 17px;
+                        // padding-top: 10px;
+                    }
+    
+                    .hero-content {
+                        // text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 18px;
+        
+                        font-style: normal;
+                        // padding-right: 146px;
+                    }
+    
+    
+    
+    
+    
+    
+                }
+    
+                .svg {
+                    position: absolute;
+                    z-index: -1;
+                    width: 200px;
+                    height: 300 px;
+                    top: -50px;
+                    left: 70px;
+                    // padding-left:50px;
+                    flex-shrink: 0;
+    
+                }
+            }
+    
+    
+            .dots {
+                position: absolute;
+                left: 350px;
+                bottom: -350px;
+                // z-index: -1;
+            }
+    
+            .form {
+                padding-top: 150px;
+                display: flex;
+                // flex-wrap: wrap;
+                // padding-left: 5px;
+                padding-left:10px;
+    
+                .left-form-section {
+                    background-color: black;
+                    width: 455;
+                    height: 459px;
+                    flex-shrink: 0;
+                    // margin: auto;
+    
+                    .petrong {
+                        padding-left: 33px;
+                        padding-top: 52.37px;
+                        // position: relative;
+                        // .petrong-circle{
+                        //     position:relative;
+                        // }
+    
+                        // .petrong-logo{
+                        //     margin-right: 200px;
+                        // }
+
+                    }
+    
+                    .left-form-content {
+                        color: white;
+                        // padding-left: 38px;
+    
+                        .left-form-head {
+                            padding-top: 20px;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-family: Arial, Helvetica, sans-serif;
+                            padding-left: 38px;
+                        }
+    
+                        .left-form-text {
+                            padding: 17px 38px;
+                        }
+    
+                        .left-form-date {
+                            padding: 37px 68px;
+                        }
+    
+                        .left-form-timezone {
+                            padding: 44px 68px;
+                        }
+    
+                    }
+                }
+    
+                .right-form-section {
+                    padding-left: 30px;
+                    padding-top: 150px;
+    
+    
+    
+                    .schedule-form {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                        .top-form {
+                            display: flex;
+                            justify-content: space-between;
+                            // align-items: flex-start;
+                            // justify-content: space-evenly;
+    
+                            .month {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .day {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .time {
+                                display: flex;
+                                flex-direction: column;
+    
+                            }
+                        }
+    
+                        .input {
+                            // border-radius: 5px;
+                            background-color: #EBFAF4;
+                            height: 55px;
+                            border: none;
+    
+                        }
+    
+                        .txtarea {
+                            background-color: #EBFAF4;
+                            height: 150px;
+                            width: 420px;
+                            border: none;
+                        
+                        }
+    
+                        .labeltxt {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            padding-bottom: 21px;
+    
+                        }
+    
+                        .text {
+                            width: 400px;
+                        }
+    
+                        .form-btn {
+                            background-color: #00D285;
+                            border: none;
+                            width: 420px;
+                            height: 55px;
+                            padding: 19px 142px 19px 146px;
+                            color: white;
+                            margin-top: 24px;
+                            margin-bottom: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+    
+
+@media screen and (min-width:2560px){
+    body {
+        margin: auto;
+        // max-width: 1440px;
+        header {
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        
+    
+            .navigations {
+                position: relative;
+                z-index: 1;
+                .nav-links {
+                    .nav {
+                        text-decoration: none;
+                        color: white;
+                        // height: 100px;
+                        padding: 0 10px;
+                        padding-top: 100px;
+                    
+                        text-transform: uppercase;
+    
+                        &:hover {
+                            color: green;
+                            font-weight: 600;
+                        }
+                    }
+    
+                }
+    
+            }
+    
+        }
+    
+        main {
+            
+            .Hero-section {
+                display: flex;
+                // flex-wrap: wrap-reverse;
+                // justify-content: space-between;
+                padding-top: 40px;
+                position: relative;
+                z-index: 1;
+
+                .left-hero-section{
+                    padding-left: 30px;
+                }
+    
+                .right-hero-section {
+                    // position: relative;
+                    // text-align: center;
+                    // padding: 150px 150px;
+                    padding: 80px 70px;
+    
+                    .line {
+                        position: absolute;
+                        // bottom: -10px;
+                        top: 140px;
+                        left: 600px;
+                        width: 50px;
+    
+                    
+    
+                    }
+    
+                    .hero-head {
+                        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 700;
+                        padding-bottom: 17px;
+                        // padding-top: 10px;
+                    }
+    
+                    .hero-content {
+                        // text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: 18px;
+        
+                        font-style: normal;
+                        // padding-right: 146px;
+                    }
+    
+    
+    
+    
+    
+    
+                }
+    
+                .svg {
+                    position: absolute;
+                    z-index: -1;
+                    width: 200px;
+                    height: 300 px;
+                    top: -100px;
+                    left: 10px;
+                    // padding-left:50px;
+                    flex-shrink: 0;
+    
+                }
+            }
+    
+    
+            .dots {
+                position: absolute;
+                left: 950px;
+                bottom: 50px;
+                // z-index: -1;
+            }
+    
+            .form {
+                padding-top: 150px;
+                display: flex;
+                flex-wrap: wrap;
+                // padding-left: 5px;
+                // padding: 150px 200px;
+                
+    
+                .left-form-section {
+                    background-color: black;
+                    width: 455px;
+                    height: 459px;
+                    flex-shrink: 0;
+                    // margin: auto;
+    
+                    .petrong {
+                        padding-left: 33px;
+                        padding-top: 52.37px;
+                        // position: relative;
+                        // .petrong-circle{
+                        //     position:relative;
+                        // }
+    
+                        // .petrong-logo{
+                        //     margin-right: 200px;
+                        // }
+                    }
+    
+                    .left-form-content {
+                        color: white;
+                        // padding-left: 38px;
+    
+                        .left-form-head {
+                            padding-top: 53px;
+                            font-size: 24px;
+                            font-style: normal;
+                            font-weight: 700;
+                            font-family: Arial, Helvetica, sans-serif;
+                            padding-left: 38px;
+                        }
+    
+                        .left-form-text {
+                            padding: 17px 38px;
+                        }
+    
+                        .left-form-date {
+                            padding: 37px 68px;
+                        }
+    
+                        .left-form-timezone {
+                            padding: 44px 68px;
+                        }
+    
+                    }
+                }
+    
+                .right-form-section {
+                    // padding-left: 150px;
+                    // padding-top: 60px;
+    
+    
+    
+                    .schedule-form {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+    
+                        .top-form {
+                            display: flex;
+                            justify-content: space-between;
+                            // align-items: flex-start;
+                            // justify-content: space-evenly;
+    
+                            .month {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .day {
+                                display: flex;
+                                flex-direction: column;
+                            }
+    
+                            .time {
+                                display: flex;
+                                flex-direction: column;
+    
+                            }
+                        }
+    
+                        .input {
+                            // border-radius: 5px;
+                            background-color: #EBFAF4;
+                            height: 55px;
+                            border: none;
+    
+                        }
+    
+                        .txtarea {
+                            background-color: #EBFAF4;
+                            height: 150px;
+                            width: 420px;
+                            border: none;
+                        
+                        }
+    
+                        .labeltxt {
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            padding-bottom: 21px;
+    
+                        }
+    
+                        .text {
+                            width: 400px;
+                        }
+    
+                        .form-btn {
+                            background-color: #00D285;
+                            border: none;
+                            width: 420px;
+                            height: 55px;
+                            padding: 19px 142px 19px 146px;
+                            color: white;
+                            margin-top: 24px;
+                            margin-bottom: 64px;
+                        }
+                    }
+                }
+            }
+        }
+    }  
+    
+}
+
+

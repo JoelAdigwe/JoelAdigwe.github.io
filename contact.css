@@ -1,0 +1,29 @@
+footer {
+    background-color: rgba(26, 26, 26, 1);
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .mobile-menu {
+        background-color: rgba(13, 13, 13, 0.844);
+        display: none;
+        position: absolute;
+        right: 5px;
+        top: 42px;}
+
+        .mobile-navs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+            padding: 15px 30px;
+            margin: auto;
+        }
+
+   .show-menu{
+    display: block;
+   }
+}
